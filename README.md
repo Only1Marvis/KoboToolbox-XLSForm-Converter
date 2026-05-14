@@ -2,7 +2,7 @@
 
 A web-based tool that automatically converts Word document questionnaires into KoboToolbox-ready XLSForm Excel files.
 
-Built following **The Enubiaka Questionnaire Design Standard** — a structured questionnaire design system that ensures consistent, high-quality XLSForm output.
+Built following **The Enubiaka Questionnaire Design Standard (EQDS)** — a structured questionnaire design system that ensures consistent, high-quality XLSForm output.
 
 ---
 
