@@ -16,6 +16,8 @@ Built following **The Enubiaka Questionnaire Design Standard (EQDS)** — a stru
 - ⚠️ Plain English error reporting with fix suggestions
 - 🌍 Bilingual support — English and French questionnaires
 - 🎨 Clean, professional web interface
+- 📋 71 instruction patterns auto-detected and converted
+- 📞 Phone number regex for 92 countries
 
 ## Supported Question Types
 
