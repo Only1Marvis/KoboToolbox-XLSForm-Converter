@@ -1,4 +1,4 @@
-# KoboToolbox XLSForm Converter
+# EQDS Word To XLSForm Converter
 
 A web-based tool that automatically converts Word document questionnaires into KoboToolbox-ready XLSForm Excel files.
 
