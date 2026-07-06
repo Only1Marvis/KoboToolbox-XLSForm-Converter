@@ -38,6 +38,10 @@ Thumbs.db
 # Logs
 *.log
 
+# Reviews data
+reviews.json
+
 # The core engine — excluded from public repo
 convert.py
+convert_nros.py
 prompt.py
