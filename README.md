@@ -14,6 +14,7 @@ Built following **The Enubiaka Questionnaire Design Standard (EQDS)** — a stru
 - 🧮 Automatic SEC (Socio-Economic Class) score calculations
 - 🔗 Reference call resolution across questions
 - ⚠️ Plain English error reporting with fix suggestions
+- 🌍 Bilingual support — English and French questionnaires
 - 🎨 Clean, professional web interface
 
 ## Supported Question Types
@@ -21,6 +22,9 @@ Built following **The Enubiaka Questionnaire Design Standard (EQDS)** — a stru
 - Single choice / Multiple choice
 - Open ended (text, integer, decimal)
 - Grids (single choice, multiple choice, open ended)
+- Semantic differential grids (bipolar scale)
+- MaxDiff grids
+- PSM / Van Westendorp price sensitivity meter
 - Funnel questions
 - SEC questions with score calculations
 - Note questions
@@ -38,24 +42,20 @@ Built following **The Enubiaka Questionnaire Design Standard (EQDS)** — a stru
 
 ## Tech Stack
 
-- Python 3.13
+- Python 3.12
 - Flask
 - python-docx
 - pandas
 - openpyxl
 
-## Setup
+## Access
+The tool is live at [eqdsword2xlsform.com](https://eqdsword2xlsform.com) — no installation required.
 
-```bash
-pip install -r requirements.txt
-python app.py
-```
-
-Then open `http://localhost:5000` in your browser.
+For local development, contact the author.
 
 ## Deployment
-
-This app is deployment-ready for Render, Railway or any platform supporting Python/Flask.
+Deployed on Render at [eqdsword2xlsform.com](https://eqdsword2xlsform.com).
+Compatible with any platform supporting Python/Flask.
 
 ```
 web: gunicorn app:app
